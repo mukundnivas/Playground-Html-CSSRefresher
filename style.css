@@ -41,9 +41,9 @@ nav a{
 }
 
 main img{
-    height: 423px;
-    width: 1000px;
-    margin: 20px;
+    max-height: 423px;
+    max-width: 80%;
+    margin: 15px;
 }
 
 .header-item{
@@ -61,11 +61,14 @@ main img{
 
 .buttons {
     background-color: #3872c9;
-    height: 60px;
+    height: 50px;
+    width: 180px;
+    font-size: 19px;
     padding: 10px;
     text-align: center;
     border: none;
     border-radius: 5px;
+    box-sizing: inset 0 0 2px #666;
 }
 
 .buttons a{
